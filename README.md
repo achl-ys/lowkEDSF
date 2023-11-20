@@ -1,6 +1,9 @@
 this browser extension swaps words and phrases on edsupportforum.com based off of a user-defined list and swaps the logo to a user-defined image. the swaps can be customised at script.js
+
 it also has these keybinds:
+
 -alt+q: opens a new tab set to google
+
 -alt+a: closes all open EDSF tabs and opens a new tab set to google
 
 it is available on all chromium-based browsers, but only tested on google chrome. to install it download this repo as a ZIP, unzip the ZIP, go to the extensions page on your browser, enable developer mode, click load unpacked and select the unzipped folder, then edit the values in script.js. it can not presently be turned on or off within the extension itself, so it must be toggled from the extensions menu
