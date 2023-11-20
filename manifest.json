@@ -1,0 +1,36 @@
+{
+  "name": "lowkEDSF",
+  
+  "description": "by achl_ys",
+  
+  "manifest_version": 3,
+  
+  "version": "0.1",
+  
+  "permissions": ["tabs"],
+  
+  "commands": {
+    "panic1": {
+      "suggested_key": {
+        "default": "Alt+Q"
+      },
+      "description": "open a new tab"
+    },
+    "panic2": {
+      "suggested_key": {
+        "default": "Alt+A"
+      },
+      "description": "close all edsf tabs and open a new tab"
+    }
+  },
+  
+  "content_scripts": [{
+    "matches": ["*://www.edsupportforum.com/*"],
+    "js": ["script.js"]
+  }],
+  
+  "background": {
+    "service_worker": "script2.js",
+    "type": "module"
+  }
+}
