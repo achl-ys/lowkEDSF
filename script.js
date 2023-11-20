@@ -1,24 +1,25 @@
 //place the url to your image of choice in the quotes
 let newLogo = "https://i.postimg.cc/VmqbTFgT/image.jpg";
 
-//word/phrase on the left will be replaced with word/phrase on the right, words can be added and removed from this list. words will be checked for alternate capitalisations so there is no needed to add duplicate entries. keep in mind words will be replaced in the order they appear on the list so you may need to put some words/phrases in front of words/phrases which they contain
+//word/phrase on the left will be replaced with word/phrase on the right, entries can be added and removed from this list but make sure you remember the commas or it will crash. words will be checked for alternate capitalisations so there is no needed to add duplicate entries. keep in mind words will be replaced in the order they appear on the list so you may need to put some words/phrases in front of words/phrases which they contain
 let swapWith = [
-["eating disorder support forum","test"],
-["eating disorder","test"],
-["BED","test"],
-["EDSF","test"],
-["ED","test"],
-["anorexia","test"],
-["bulimia","test"],
-["EDNOS","test"],
-["orthorexia","test"],
-["calories","test"],
-["cals","test"],
-["diet","test"],
-["fasting","test"],
-["starving","test"],
-["binging","test"],
-["binge","test"]
+["eating disorder support forum","edit me"],
+["eating disorder","edit me"],
+["BED","edit me"],
+["EDSF","edit me"],
+["ED","edit me"],
+["anorexia","edit me"],
+["bulimia","edit me"],
+["EDNOS","edit me"],
+["orthorexia","edit me"],
+["calories","edit me"],
+["cals","edit me"],
+["diet","edit me"],
+["fasting","edit me"],
+["starving","edit me"],
+["binging","edit me"],
+["binge","edit me"],
+["you can edit the words/phrases on the left as well","they're just suggestions for the kinds of words to add"]
 ]
 
 //--------------------------FORMATTING--------------------------
